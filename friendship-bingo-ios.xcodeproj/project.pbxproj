@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4DB46FB2197835200679B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB46FA2197835200679B04 /* AppDelegate.swift */; };
+		F4DB46FD2197835200679B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB46FC2197835200679B04 /* ViewController.swift */; };
+		F4DB47002197835200679B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DB46FE2197835200679B04 /* Main.storyboard */; };
+		F4DB47022197835300679B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB47012197835300679B04 /* Assets.xcassets */; };
+		F4DB47052197835300679B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DB47032197835300679B04 /* LaunchScreen.storyboard */; };
+		F4DB47102197835300679B04 /* friendship_bingo_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB470F2197835300679B04 /* friendship_bingo_iosTests.swift */; };
+		F4DB471B2197835300679B04 /* friendship_bingo_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB471A2197835300679B04 /* friendship_bingo_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4DB470C2197835300679B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DB46EF2197835200679B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DB46F62197835200679B04;
+			remoteInfo = "friendship-bingo-ios";
+		};
+		F4DB47172197835300679B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DB46EF2197835200679B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DB46F62197835200679B04;
+			remoteInfo = "friendship-bingo-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4DB46F72197835200679B04 /* friendship-bingo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "friendship-bingo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DB46FA2197835200679B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4DB46FC2197835200679B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4DB46FF2197835200679B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4DB47012197835300679B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4DB47042197835300679B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4DB47062197835300679B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DB470B2197835300679B04 /* friendship-bingo-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "friendship-bingo-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DB470F2197835300679B04 /* friendship_bingo_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendship_bingo_iosTests.swift; sourceTree = "<group>"; };
+		F4DB47112197835300679B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DB47162197835300679B04 /* friendship-bingo-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "friendship-bingo-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DB471A2197835300679B04 /* friendship_bingo_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendship_bingo_iosUITests.swift; sourceTree = "<group>"; };
+		F4DB471C2197835300679B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DB46F42197835200679B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB47082197835300679B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB47132197835300679B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DB46EE2197835200679B04 = {
+			isa = PBXGroup;
+			children = (
+				F4DB46F92197835200679B04 /* friendship-bingo-ios */,
+				F4DB470E2197835300679B04 /* friendship-bingo-iosTests */,
+				F4DB47192197835300679B04 /* friendship-bingo-iosUITests */,
+				F4DB46F82197835200679B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DB46F82197835200679B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB46F72197835200679B04 /* friendship-bingo-ios.app */,
+				F4DB470B2197835300679B04 /* friendship-bingo-iosTests.xctest */,
+				F4DB47162197835300679B04 /* friendship-bingo-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DB46F92197835200679B04 /* friendship-bingo-ios */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB46FA2197835200679B04 /* AppDelegate.swift */,
+				F4DB46FC2197835200679B04 /* ViewController.swift */,
+				F4DB46FE2197835200679B04 /* Main.storyboard */,
+				F4DB47012197835300679B04 /* Assets.xcassets */,
+				F4DB47032197835300679B04 /* LaunchScreen.storyboard */,
+				F4DB47062197835300679B04 /* Info.plist */,
+			);
+			path = "friendship-bingo-ios";
+			sourceTree = "<group>";
+		};
+		F4DB470E2197835300679B04 /* friendship-bingo-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB470F2197835300679B04 /* friendship_bingo_iosTests.swift */,
+				F4DB47112197835300679B04 /* Info.plist */,
+			);
+			path = "friendship-bingo-iosTests";
+			sourceTree = "<group>";
+		};
+		F4DB47192197835300679B04 /* friendship-bingo-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB471A2197835300679B04 /* friendship_bingo_iosUITests.swift */,
+				F4DB471C2197835300679B04 /* Info.plist */,
+			);
+			path = "friendship-bingo-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DB46F62197835200679B04 /* friendship-bingo-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DB471F2197835300679B04 /* Build configuration list for PBXNativeTarget "friendship-bingo-ios" */;
+			buildPhases = (
+				F4DB46F32197835200679B04 /* Sources */,
+				F4DB46F42197835200679B04 /* Frameworks */,
+				F4DB46F52197835200679B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "friendship-bingo-ios";
+			productName = "friendship-bingo-ios";
+			productReference = F4DB46F72197835200679B04 /* friendship-bingo-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DB470A2197835300679B04 /* friendship-bingo-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DB47222197835300679B04 /* Build configuration list for PBXNativeTarget "friendship-bingo-iosTests" */;
+			buildPhases = (
+				F4DB47072197835300679B04 /* Sources */,
+				F4DB47082197835300679B04 /* Frameworks */,
+				F4DB47092197835300679B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DB470D2197835300679B04 /* PBXTargetDependency */,
+			);
+			name = "friendship-bingo-iosTests";
+			productName = "friendship-bingo-iosTests";
+			productReference = F4DB470B2197835300679B04 /* friendship-bingo-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4DB47152197835300679B04 /* friendship-bingo-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DB47252197835300679B04 /* Build configuration list for PBXNativeTarget "friendship-bingo-iosUITests" */;
+			buildPhases = (
+				F4DB47122197835300679B04 /* Sources */,
+				F4DB47132197835300679B04 /* Frameworks */,
+				F4DB47142197835300679B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DB47182197835300679B04 /* PBXTargetDependency */,
+			);
+			name = "friendship-bingo-iosUITests";
+			productName = "friendship-bingo-iosUITests";
+			productReference = F4DB47162197835300679B04 /* friendship-bingo-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DB46EF2197835200679B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Hack4Impact Cal Poly";
+				TargetAttributes = {
+					F4DB46F62197835200679B04 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F4DB470A2197835300679B04 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4DB46F62197835200679B04;
+					};
+					F4DB47152197835300679B04 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4DB46F62197835200679B04;
+					};
+				};
+			};
+			buildConfigurationList = F4DB46F22197835200679B04 /* Build configuration list for PBXProject "friendship-bingo-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DB46EE2197835200679B04;
+			productRefGroup = F4DB46F82197835200679B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DB46F62197835200679B04 /* friendship-bingo-ios */,
+				F4DB470A2197835300679B04 /* friendship-bingo-iosTests */,
+				F4DB47152197835300679B04 /* friendship-bingo-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DB46F52197835200679B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB47052197835300679B04 /* LaunchScreen.storyboard in Resources */,
+				F4DB47022197835300679B04 /* Assets.xcassets in Resources */,
+				F4DB47002197835200679B04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB47092197835300679B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB47142197835300679B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DB46F32197835200679B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB46FD2197835200679B04 /* ViewController.swift in Sources */,
+				F4DB46FB2197835200679B04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB47072197835300679B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB47102197835300679B04 /* friendship_bingo_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DB47122197835300679B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB471B2197835300679B04 /* friendship_bingo_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4DB470D2197835300679B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DB46F62197835200679B04 /* friendship-bingo-ios */;
+			targetProxy = F4DB470C2197835300679B04 /* PBXContainerItemProxy */;
+		};
+		F4DB47182197835300679B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DB46F62197835200679B04 /* friendship-bingo-ios */;
+			targetProxy = F4DB47172197835300679B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DB46FE2197835200679B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DB46FF2197835200679B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4DB47032197835300679B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DB47042197835300679B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DB471D2197835300679B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4DB471E2197835300679B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DB47202197835300679B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "friendship-bingo-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hack4impact-calpoly.friendship-bingo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4DB47212197835300679B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "friendship-bingo-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hack4impact-calpoly.friendship-bingo-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4DB47232197835300679B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "friendship-bingo-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hack4impact-calpoly.friendship-bingo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/friendship-bingo-ios.app/friendship-bingo-ios";
+			};
+			name = Debug;
+		};
+		F4DB47242197835300679B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "friendship-bingo-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hack4impact-calpoly.friendship-bingo-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/friendship-bingo-ios.app/friendship-bingo-ios";
+			};
+			name = Release;
+		};
+		F4DB47262197835300679B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "friendship-bingo-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hack4impact-calpoly.friendship-bingo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "friendship-bingo-ios";
+			};
+			name = Debug;
+		};
+		F4DB47272197835300679B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "friendship-bingo-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hack4impact-calpoly.friendship-bingo-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "friendship-bingo-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DB46F22197835200679B04 /* Build configuration list for PBXProject "friendship-bingo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB471D2197835300679B04 /* Debug */,
+				F4DB471E2197835300679B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DB471F2197835300679B04 /* Build configuration list for PBXNativeTarget "friendship-bingo-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB47202197835300679B04 /* Debug */,
+				F4DB47212197835300679B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DB47222197835300679B04 /* Build configuration list for PBXNativeTarget "friendship-bingo-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB47232197835300679B04 /* Debug */,
+				F4DB47242197835300679B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DB47252197835300679B04 /* Build configuration list for PBXNativeTarget "friendship-bingo-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB47262197835300679B04 /* Debug */,
+				F4DB47272197835300679B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DB46EF2197835200679B04 /* Project object */;
+}

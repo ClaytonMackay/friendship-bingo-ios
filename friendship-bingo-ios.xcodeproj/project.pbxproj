@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D74FE3221B3068C00CBF320 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74FE3121B3068C00CBF320 /* SecondViewController.swift */; };
 		F4DB46FB2197835200679B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB46FA2197835200679B04 /* AppDelegate.swift */; };
 		F4DB46FD2197835200679B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB46FC2197835200679B04 /* ViewController.swift */; };
 		F4DB47002197835200679B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DB46FE2197835200679B04 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D74FE3121B3068C00CBF320 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F4DB46F72197835200679B04 /* friendship-bingo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "friendship-bingo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DB46FA2197835200679B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DB46FC2197835200679B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D74FE3321B3211300CBF320 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D74FE3421B3211A00CBF320 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB46FC2197835200679B04 /* ViewController.swift */,
+				5D74FE3121B3068C00CBF320 /* SecondViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D74FE3521B3212300CBF320 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F4DB46EE2197835200679B04 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +122,10 @@
 		F4DB46F92197835200679B04 /* friendship-bingo-ios */ = {
 			isa = PBXGroup;
 			children = (
+				5D74FE3321B3211300CBF320 /* Model */,
+				5D74FE3421B3211A00CBF320 /* View */,
+				5D74FE3521B3212300CBF320 /* Controller */,
 				F4DB46FA2197835200679B04 /* AppDelegate.swift */,
-				F4DB46FC2197835200679B04 /* ViewController.swift */,
 				F4DB46FE2197835200679B04 /* Main.storyboard */,
 				F4DB47012197835300679B04 /* Assets.xcassets */,
 				F4DB47032197835300679B04 /* LaunchScreen.storyboard */,
@@ -256,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D74FE3221B3068C00CBF320 /* SecondViewController.swift in Sources */,
 				F4DB46FD2197835200679B04 /* ViewController.swift in Sources */,
 				F4DB46FB2197835200679B04 /* AppDelegate.swift in Sources */,
 			);

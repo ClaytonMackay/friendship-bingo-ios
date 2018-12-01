@@ -14,6 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "SecondVCSegue" {
+//            if let secondVC = segue.destination as? SecondViewController {
+//                secondVC.infoObject = "Hello world!"
+//            }
+//        }
+//    }
 
 
 }
